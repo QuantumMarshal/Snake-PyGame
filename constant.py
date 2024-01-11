@@ -5,10 +5,9 @@ HEIGHT = 600
 SCREEN = (WIDTH, HEIGHT)
 
 SNAKE_BLOCK = 20
-SNAKE_SPEED = 10
+SNAKE_SPEED = 15
 
 class STATE(Enum):
-    INIT = 1
-    GET_INPUT = 2
-    PLAYING = 3
-    END = 4
+    MENU = 1
+    PLAYING = 2
+    END = 3

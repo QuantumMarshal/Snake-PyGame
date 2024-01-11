@@ -1,6 +1,6 @@
-import pygame
 import random
 from constant import *
+from button import *
 
 def draw_snake(snake_block, snake_list, window):
     for snake in snake_list:
